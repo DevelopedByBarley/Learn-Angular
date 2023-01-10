@@ -1,0 +1,19 @@
+.box {
+  border: 2px dashed black;
+  border-radius: 6px;
+  height: 180px;
+  width: 300px;
+}
+
+.not-grabbed {
+  cursor: move;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+.grabbed {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}

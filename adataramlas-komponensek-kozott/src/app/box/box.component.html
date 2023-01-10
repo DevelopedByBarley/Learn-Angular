@@ -1,0 +1,8 @@
+<div class="box" [ngClass]="isItGrabbed ? 'grabbed' : 'not-grabbed'" [ngStyle]="{
+  'position': 'absolute',
+  'left.px': XPos,
+  'top.px': YPos,
+  'backgroundColor': choosedColor
+}" (mousedown)="boxDragStart()" (mouseup)=" boxDragOver()" (mousemove)=" boxDragInProcess($event)">
+  <h1># Húzd arrébb</h1>
+</div>
